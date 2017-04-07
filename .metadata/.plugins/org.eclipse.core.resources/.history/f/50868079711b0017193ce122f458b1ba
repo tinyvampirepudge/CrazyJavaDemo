@@ -1,0 +1,11 @@
+package lambda;
+
+public class AddCommand implements Command {
+
+	@Override
+	public void process(int[] target) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
