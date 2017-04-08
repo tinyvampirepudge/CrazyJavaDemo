@@ -1,0 +1,20 @@
+package lambda;
+
+interface Eatable{
+	void taste();
+}
+interface Flyable{
+	void fly(String weather);
+}
+interface Addable{
+	int add(int a,int b);
+}
+
+public class LambdaQs {
+	
+	public void eat(Eatable eatable){
+		System.out.println(eatable);
+		eatable.taste();
+	}
+
+}
