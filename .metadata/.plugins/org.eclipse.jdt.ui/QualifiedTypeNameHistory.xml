@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="lambda.Converter2"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="lambda.Converter"/>
+<fullyQualifiedTypeName name="lambda.MyTest"/>
+<fullyQualifiedTypeName name="lambda.YourTest"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="javax.imageio.event.IIOReadWarningListener"/>
+<fullyQualifiedTypeName name="lambda.PersonInterfaceDefault"/>
+<fullyQualifiedTypeName name="lambda.PersonInterfaceName"/>
+<fullyQualifiedTypeName name="lambda.PersonInterfaceAll"/>
+<fullyQualifiedTypeName name="lambda.Person"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="lambda.LambdaQs.Displayable"/>
+<fullyQualifiedTypeName name="lambda.Addable"/>
+</qualifiedTypeNameHistroy>
