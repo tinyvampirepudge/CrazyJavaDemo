@@ -1,0 +1,5 @@
+package com.tiny.demo;
+
+public class IntegerIncComparator {
+
+}
