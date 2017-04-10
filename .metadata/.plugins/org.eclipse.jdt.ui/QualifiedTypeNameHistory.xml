@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.lang.Process"/>
-<fullyQualifiedTypeName name="lambda.ProcessArray"/>
-<fullyQualifiedTypeName name="lambda.PrintCommand"/>
-<fullyQualifiedTypeName name="lambda.AddCommand"/>
-<fullyQualifiedTypeName name="lambda.Command"/>
-<fullyQualifiedTypeName name="java.lang.InstantiationError"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.ID_ASSIGNMENT_POLICY_ID"/>
-<fullyQualifiedTypeName name="lambda.Eatable"/>
-<fullyQualifiedTypeName name="lambda.Flyable"/>
-<fullyQualifiedTypeName name="lambda.Addable"/>
-<fullyQualifiedTypeName name="lambda.LambdaQs"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
