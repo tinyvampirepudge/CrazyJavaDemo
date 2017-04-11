@@ -1,0 +1,18 @@
+package com.tiny.demo;
+
+import java.util.Collection;
+import java.util.HashSet;
+
+public class CollectionEach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//使用Lambda表达式遍历集合
+		Collection books = new HashSet<>();
+		books.add("轻量级Java EE企业应用实战");
+		books.add("疯狂Java讲义");
+		books.add("疯狂Android讲义");
+		//调用forEach方法遍历集合
+	}
+
+}

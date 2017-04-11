@@ -1,0 +1,36 @@
+package com.tiny.demo;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+
+public class CollectionEach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 使用Lambda表达式遍历集合
+		Collection books = new HashSet<>();
+		books.add("轻量级Java EE企业应用实战");
+		books.add("疯狂Java讲义");
+		books.add("疯狂Android讲义");
+		// 调用forEach方法遍历集合
+		books.forEach(obj -> {
+			System.out.println("迭代集合元素：" + obj);
+		});
+		
+		Collection<Person> persons = new ArrayList<>();
+		Person p1 = new Person("tiny", 100);
+		persons.add(p1);
+		Person p2 = new Person("tong", 250);
+		persons.add(p2);
+		Person p3 = new Person("tomato", 357);
+		persons.add(p3);
+		//使用lambda表达式遍历集合
+		persons.forEach(abc -> {
+			System.out.println("person --> " + abc);
+			abc.setAge(abc.getAge() + 1000);
+			System.out.println("person --> " + abc);
+		});
+	}
+
+}

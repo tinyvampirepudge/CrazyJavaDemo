@@ -1,0 +1,10 @@
+package com.tiny.demo;
+
+public class CollectionEach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//使用Lambda表达式遍历集合
+	}
+
+}
