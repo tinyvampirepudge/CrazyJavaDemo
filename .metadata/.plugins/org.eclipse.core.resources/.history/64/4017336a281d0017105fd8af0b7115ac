@@ -6,12 +6,36 @@ public class CommandTest {
 
 	public static void main(String[] args) {
 		ProcessArray pa = new ProcessArray();
-		int[] target = {3,-4,6,4};
+		int[] array = {3,-4,6,4};
 		//第一次处理数组，具体处理行为取决于PrintCommand
-		pa.process(target, new PrintCommand());
+		pa.process(array, new PrintCommand());
 		System.out.println("-------------------------");
 		//第二次处理数组，具体处理行为取决于AddCommand
-		pa.process(target, new AddCommand());
+		pa.process(array, new AddCommand());
+		System.out.println("-------------------------");
+		//lambda改写
+		//第一步，使用匿名内部类实现功能
+		pa.process(array, new Command() {
+			
+			@Override
+			public void process(int[] target) {
+				// TODO Auto-generated method stub
+				int sum = 0;
+				for (int i : target) {
+					sum += i;
+				}
+				System.out.println("数组元素的总和是："+sum);
+			}
+		});
+		System.out.println("-------------------------");
+		//第二步，使用lambda进行改写
+		pa.process(array, (int[] target) ->{
+			int sum = 1;
+			for (int i : target) {
+				sum*=i;
+			}
+			System.out.println("数组元素的乘积总和是："+sum);
+		});
 	}
 
 }

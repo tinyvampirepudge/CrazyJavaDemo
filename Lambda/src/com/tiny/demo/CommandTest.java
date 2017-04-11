@@ -1,7 +1,5 @@
 package com.tiny.demo;
 
-import java.util.List;
-
 public class CommandTest {
 
 	public static void main(String[] args) {

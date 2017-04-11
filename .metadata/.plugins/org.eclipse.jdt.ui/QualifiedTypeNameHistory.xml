@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="lambda.Converter2"/>
 <fullyQualifiedTypeName name="lambda.Converter"/>
 <fullyQualifiedTypeName name="lambda.MyTest"/>
@@ -28,4 +29,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.tiny.demo.Person"/>
 <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+=======
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+>>>>>>> ecd78ea33e4bf16e1a90ca961c083656bdebdab7
 </qualifiedTypeNameHistroy>
